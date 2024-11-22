@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "JavaScript Executor",
+  "version": "1.0",
+  "description": "Execute pre-set JavaScript code on the current page with one click.",
+  "permissions": ["geolocation", "scripting", "storage", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "16": "icons/play16x16.png",
+    "128": "icons/play128x128.png"
+  },
+  "icons": {
+    "16": "icons/play16x16.png",
+    "128": "icons/play128x128.png"
+  }
+}
